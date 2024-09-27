@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="financeiro.css">
+    <link rel="icon" href="img/varios.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>FInanceiro</title>
+</head>
+
+<body>
+
+    <a href="index.html"><h1>Financeiro</h1></a>
+
+
+        <div class="entradas">
+
+            <div class="card">
+              <div class="card2">
+                <h2>entradas</h2> 
+                <input placeholder="Digite a entrada em R$..." class="input" name="number" type="number"/>
+                <button class="button1">enviar</button>
+              </div>
+            </div>
+    
+            <div class="card">
+                <div class="card2">
+                  <h2>saidas</h2>
+                  <input placeholder="Digite a saida em R$..." class="input" name="number" type="number"/>
+                  <button class="button1">enviar</button>
+                </div>
+            </div>
+      
+        </div>
+    
+        <div class="saidas">
+          <div class="card-saida">
+            <div class="card2-saida">
+              <h2>HISTÓRICO</h2>
+              <div class="secaohistoricos">
+                
+              </div>
+              <div class="div">
+                <H2>SAIDA</H2>
+                <H3 class="saldosaidaresultado"></H3>
+                <button class="button-excluir-tudo">Excluir Tudo</button>
+              </div> 
+            </div>
+          </div>
+        </div>
+
+
+</body>
+<script src="financeiro.js"></script>
+</html>
